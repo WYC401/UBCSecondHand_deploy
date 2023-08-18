@@ -4,7 +4,7 @@ This is a webapp for UBC students to trade the second-hand goods like used textb
 # How to deploy it?
 For backend,
 ```
-cd UBCSecondHand
+cd UBCSecondHandBackend
 npm start
 ```
 For the frontend,
