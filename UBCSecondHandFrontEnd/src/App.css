@@ -1,0 +1,151 @@
+
+
+/* .sidenav {
+  height: 100%;
+
+
+
+
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
+
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: relative;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 20%;
+  }
+
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  flex-basis: 80%;
+
+ /* Same as the width of the sidenav */
+}
+
+.sidenav div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+
+}
+
+.downBackground{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+}
+
+.upperMenue{
+  height:10%;
+  width: 100%;
+  position: sticky;
+  left: 0;
+  top: 0;
+
+ 
+}
+
+.wholeBackground{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display:block;
+}
+.itemBox {
+  position: relative;
+  width: 80%;
+  padding:10%;
+}
+
+.itemImage{
+  position: absolute;
+  top:0;
+  left:0;
+  height: 80%;
+  width: 20%;
+}
+
+.itemText{
+  position: absolute;
+  top:0;
+  left:20%;
+  height: 80%;
+  width: 80%;
+}
+
+.ItemDropdown {
+  position: absolute;
+  right:0%;
+  top:0%;
+  width: 20%;
+  display: inline-block;
+}
+
+.dropDownContent {
+  position: relative;
+  display: none;
+  width:100%;
+  overflow:auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.ItemDropdown:hover .dropDownContent {
+  display: block;
+}
+
+.dropDownContent span {
+  display:block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+
+}
+
+.itemInputForm {
+  display: block;
+  position: absolute;
+  left: 20%;
+  right: 20%
+
+}
+.dropDownContent span:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
